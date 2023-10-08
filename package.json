@@ -1,0 +1,29 @@
+{
+  "private": false,
+  "name": "@r00t80y/prettier-config",
+  "description": "Prettier Config",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": "nnu17ip1y <nnu17ip1y@yahoo.com> (https://github.com/R00T80Y)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "release": "changeset publish",
+    "prepare": "husky install"
+  },
+  "publishConfig": {
+    "access": "public",
+    "updateInternalDependencies": "patch"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3"
+  }
+}
